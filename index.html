@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>CrmDashboard</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<img src="/img/header/Logo.svg" alt="logo-image" class="img-logo">
+				</div>
+				<div class="header__navigation">
+					<nav>
+						<ul class="nav-menu">
+							<li class="nav-menu__item" onclick="location.href='#'"> Dashboard</li>
+							<li class="nav-menu__item" onclick="location.href='#'"> Product</li>
+							<li class="nav-menu__item" onclick="location.href='#'"> Customers</li>
+							<li class="nav-menu__item" onclick="location.href='#'"> Income</li>
+							<li class="nav-menu__item" onclick="location.href='#'"> Promote</li>
+							<li class="nav-menu__item" onclick="location.href='#'"> Help</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__profile profile-info">
+					<div class="profile-info__img">
+						<img src="/img/header/avatar.png" alt="">
+					</div>
+					<div class="profile-info__user user-info">
+						<div class="user-info__name">Evano</div>
+						<div class="user-info__speciality">Project manager</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<button class="menu-button" id="toggleButton">
+			<div class="menu-button__items">
+				<div class="menu-button__item"></div>
+				<div class="menu-button__item"></div>
+			</div>
+		</button>
+		<main class="main">
+			<div class="main__container">
+				<div class="main_welcome">Hello Evano 👋🏼,</div>
+				<div class="main__user-table table-user">
+					<div class="table-user_all-customers customers-all">
+						<div class="customers-all__title title-block">
+							<h1 class="title-block_title">All Customers</h1>
+							<h2 class="title-block_sub-title">Active Members</h2>
+						</div>
+						<div class="customers-all__search">
+							<input type="text" class="customers-all__search-input" placeholder="Search">
+						</div>
+					</div>
+					<div class="table-user_main main-table">
+						<div class="main-table__header">
+							<div class="main-table__title-customers">Customers Name</div>
+							<div class="main-table__title-customers">Company</div>
+							<div class="main-table__title-customers">Phone Number</div>
+							<div class="main-table__title-customers">Email</div>
+							<div class="main-table__title-customers">Country</div>
+							<div class="main-table__title-customers">Status</div>
+						</div>
+						<div class="main-table__row">
+							<div class="main-table__row-customers">Jane Cooper</div>
+							<div class="main-table__row-customers">Microsoft</div>
+							<div class="main-table__row-customers">(225) 555-0118</div>
+							<div class="main-table__row-customers">jane@microsoft.com</div>
+							<div class="main-table__row-customers">United States</div>
+							<div class="main-table__row-customers active-customers">
+								<div class="active-customers__item" onclick="location.href='#'">Active</div>
+							</div>
+						</div>
+						<div class="main-table__row">
+							<div class="main-table__row-customers">Floyd Miles</div>
+							<div class="main-table__row-customers">Yahoo</div>
+							<div class="main-table__row-customers">(205) 555-0100</div>
+							<div class="main-table__row-customers">floyd@yahoo.com</div>
+							<div class="main-table__row-customers">Kiribati</div>
+							<div class="main-table__row-customers active-customers">
+								<div class="active-customers__item_bg-border-color" onclick="location.href='#'">Inactive</div>
+							</div>
+						</div>
+						<div class="main-table__row">
+							<div class="main-table__row-customers">Ronald Richards</div>
+							<div class="main-table__row-customers">Adobe</div>
+							<div class="main-table__row-customers">(302) 555-0107</div>
+							<div class="main-table__row-customers">ronald@adobe.com</div>
+							<div class="main-table__row-customers">Israel</div>
+							<div class="main-table__row-customers active-customers">
+								<div class="active-customers__item_bg-border-color" onclick="location.href='#'">Inactive</div>
+							</div>
+						</div>
+						<div class="main-table__row">
+							<div class="main-table__row-customers">Marvin McKinney</div>
+							<div class="main-table__row-customers">Tesla</div>
+							<div class="main-table__row-customers">(252) 555-0126</div>
+							<div class="main-table__row-customers">marvin@tesla.com</div>
+							<div class="main-table__row-customers">Iran</div>
+							<div class="main-table__row-customers active-customers">
+								<div class="active-customers__item" onclick="location.href='#'">Active</div>
+							</div>
+						</div>
+						<div class="main-table__row">
+							<div class="main-table__row-customers">Jerome Bell</div>
+							<div class="main-table__row-customers">Google</div>
+							<div class="main-table__row-customers">(629) 555-0129</div>
+							<div class="main-table__row-customers">jerome@google.com</div>
+							<div class="main-table__row-customers">Réunion</div>
+							<div class="main-table__row-customers active-customers">
+								<div class="active-customers__item" onclick="location.href='#'">Active</div>
+							</div>
+						</div>
+						<div class="main-table__row">
+							<div class="main-table__row-customers">Kathryn Murphy</div>
+							<div class="main-table__row-customers">Microsoft</div>
+							<div class="main-table__row-customers">(406) 555-0120</div>
+							<div class="main-table__row-customers">kathryn@microsoft.com</div>
+							<div class="main-table__row-customers">Curaçao</div>
+							<div class="main-table__row-customers active-customers">
+								<div class="active-customers__item onclick="location.href='#'>Active</div>
+							</div>
+						</div>
+						<div class="main-table__row">
+							<div class="main-table__row-customers">Jacob Jones</div>
+							<div class="main-table__row-customers">Yahoo</div>
+							<div class="main-table__row-customers">(208) 555-0112</div>
+							<div class="main-table__row-customers">jacob@yahoo.com</div>
+							<div class="main-table__row-customers">Brazil</div>
+							<div class="main-table__row-customers active-customers">
+								<div class="active-customers__item onclick="location.href='#'>Active</div>
+							</div>
+						</div>
+						<div class="main-table__row">
+							<div class="main-table__row-customers">Kristin Watson</div>
+							<div class="main-table__row-customers">Facebook</div>
+							<div class="main-table__row-customers">(704) 555-0127</div>
+							<div class="main-table__row-customers">kristin@facebook.com</div>
+							<div class="main-table__row-customers">Åland Islands</div>
+							<div class="main-table__row-customers active-customers">
+								<div class="active-customers__item_bg-border-color onclick="location.href='#'>Inactive</div>
+							</div>
+						</div>
+					</div>
+					<div class="table-user__nav-slider slider-nav">
+						<div class="slider-nav__showing-data">Showing data 1 to 8 of  256K entries</div>
+						<div class="slider-nav__slider number-slider">
+							<div class="number-slider__items">
+								<div class="number-slider__item" onclick="location.href='#'"><</div>
+								<div class="number-slider__item" onclick="location.href='#'">1</div>
+								<div class="number-slider__item" onclick="location.href='#'">2</div>
+								<div class="number-slider__item" onclick="location.href='#'">3</div>
+								<div class="number-slider__item">...</div>
+								<div class="number-slider__item" onclick="location.href='#'">40</div>
+								<div class="number-slider__item" onclick="location.href='#'">></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer"></footer>
+	</div>
+	<script src="/js/script.js"></script>
+</body>
+</html>
